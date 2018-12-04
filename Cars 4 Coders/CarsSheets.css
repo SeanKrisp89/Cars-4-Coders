@@ -1,0 +1,85 @@
+
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-family: "Bungee";
+}
+
+#center{
+    width: 513px;
+    margin: 0 auto;
+}
+
+h2, h3{
+    position: relative;
+    animation-name: subscribe;
+    animation-direction: normal;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    color: silver;
+    margin-top: 10px;
+
+}
+
+@keyframes subscribe{
+        0% {
+            
+            left: -100vw;
+            color: red;
+        }
+        10% {
+            
+            left: -90vw;
+            color: black;
+        }
+        20% {
+            
+            left: -80vw;
+            color: red;
+        }
+        30% {
+            
+            left: -70vw;
+            color: black;
+        }
+        40% {
+            
+            left: -60vw;
+            color: red;
+        }
+        50%{
+            
+            left: -50vw;
+            color: black;
+        }
+        60% {
+            
+            left: -40vw;
+            color: red;
+        }
+        70% {
+            
+            left: -30vw;
+            color: black;
+        }
+        80% {
+            
+            left: -20vw;
+            color: red;
+        }
+        90% {
+            
+            left: -10vw;
+            color: black;
+        }
+        100%{
+            
+            left: 0vw;
+            color: red;
+        }
+}
